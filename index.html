@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV – Amy Dounia Ndiaye | L2 Informatique</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body class="dark">
+  <nav class="navbar">
+    <div class="logo">Mon CV</div>
+    <button class="hamburger" id="hamburger">☰</button>
+    <ul class="menu" id="menu">
+    <li><a href="#presentation">Profil</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#competences">Compétences</a></li>
+    <li><a href="#projets">Projets</a></li>
+    <li><a href="#outils">Outils</a></li>
+    <li><a href="#langues">Langues</a></li>
+    <li><a href="#interets">Centres d'intérêt</a></li>
+    </ul>
+    <button id="themebtn"></button>
+  </nav>
+   <div>
+      <!-- ═══ HERO ═══ -->
+     <header class="hero">
+        <div class="hero-info">
+        <span class="hero-tag">Étudiante — L2 Informatique</span>
+        <h1>Amy Dounia <span class="accent">Ndiaye</span></h1>
+        <p class="hero-sub">Université Iba Der Thiam de THIES — UFR des Sciences et technologies</p>
+        <div class="contacts">
+          <span class="contact-pill">
+            <span class="material-symbols-outlined">phone</span>
+            <a href="tel:+221786809140">+221 78 680 91 40</a>
+          </span>
+          <span class="contact-pill">
+            <span class="material-symbols-outlined">mail</span>
+            <a href="mailto:adounia.ndiaye@univ-thies.sn">adounia.ndiaye@univ-thies.sn</a>
+          </span>
+          <span class="contact-pill">
+            <span class="material-symbols-outlined">location_on</span>
+            Sénégal, Dakar
+          </span>
+        </div> 
+        </div>
+        <div class="hero-photo">
+        <img src="../IMAGES/moi2.jpeg" alt="Amy Dounia Ndiaye">
+        </div>
+     </header>
+   
+      <!-- ── COLONNE GAUCHE ── -->
+      <main>
+        <section class="card" id="presentation">
+          <div class="card-header">
+           <div>
+             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+             <circle cx="12" cy="7" r="4"/>
+              <!-- icône -->
+           </div>
+            <h2 class="card-title">Profil</h2>
+            <span class="material-symbols-outlined">person</span>
+         </div>
+
+         <p class="profile-text">
+         Étudiante en deuxième année de Licence Informatique à l'Université
+         Iba Der Thiam de Thiès, je suis passionnée par le développement web,
+         les bases de données et les nouvelles technologies. Curieuse,
+         rigoureuse et motivée, je cherche à renforcer mes compétences à
+         travers des projets académiques et personnels.
+         </p>
+       </section>
+        <!-- PARCOURS SCOLAIRE -->
+        <section class="card" id="parcours">
+          <div class="card-header">
+            <h2 class="card-title">Parcours Scolaire </h2>
+            <span class="material-symbols-outlined">school</span>
+          </div>
+
+
+          <table class="parcours-table">
+            <thead>
+              <tr>
+                <th>Période</th> 
+                <th>Diplôme / Formation</th>
+                <th>Statut</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="year-badge">2024 – 2025</span></td>
+                <td>
+                  <p class="diplome-nom">Licence 2 – Informatique</p>
+                  <p class="diplome-lieu">Université Iba Der Thiam de Thies — UFR des Sciences et Technologies, Thies</p>
+                </td>
+                <td><span class="badge badge-encours">En cours</span></td>
+              </tr>
+              <tr>
+                <td><span class="year-badge">2023 – 2024</span></td>
+                <td>
+                  <p class="diplome-nom">Licence 1 – Informatique</p>
+                  <p class="diplome-lieu">Université Iba Der Thiam de Thies — UFR des Sciences et Technologies, Thies</p>
+                </td>
+                <td><span class="badge badge-obtenu">Obtenu</span></td>
+              </tr>
+              <tr>
+                <td><span class="year-badge">2022 – 2023</span></td>
+                <td>
+                  <p class="diplome-nom">Baccalauréat Série S2</p>
+                  <p class="diplome-lieu">Lycée Lamine Gueye, Dakar</p>
+                </td>
+                <td><span class="badge badge-mention">Mention Assez Bien</span></td>
+              </tr>
+              <tr>
+                <td><span class="year-badge">2019 – 2020</span></td>
+                <td>
+                  <p class="diplome-nom">BFEM</p>
+                  <p class="diplome-lieu">Collège Lamine Gueye, Dakar</p>
+                </td>
+                <td><span class="badge badge-obtenu">Obtenu</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- PROJETS -->
+        <section class="card" id="projets">
+          <div class="card-header">
+            <h2 class="card-title">Projets Académiques</h2>
+            <span class="material-symbols-outlined">schoolmenu_book</span>
+          </div>
+
+          <div class="project-card">
+            <p class="project-title">Application de gestion administrative universitaire</p>
+            <p class="project-desc">Système complet de gestion de la coordination administrative des activités de la vie d’une organisation avec base de données MySQL</p>
+            <p>Outils utilisé</p>
+            <div class="project-tags">
+              <ul>
+                <li> <span class="ptag">JavaScript</span></li>
+                <li><span class="ptag">MySQL</span></li>
+                <li> <span class="ptag">HTML5</span></li>
+                <li><span class="ptag">CSS3</span></li>
+                <li> <span class="ptag">Visual Studio Code</span></li>
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="project-card">
+            <p class="project-title">Système de gestion des rendez-vous et des dossiers médicaux d'un centre de santé</p>
+            <p class="project-desc">Application développée en HTML/CSS/JS pur, Hébergement sur Netlify.</p>
+            <p>Outils utilisé</p>
+            <div class="project-tags">
+              <ul>
+               <li><span class="ptag">HTML5</span></li> 
+               <li><span class="ptag">CSS3</span></li>
+               <li><span class="ptag">JavaScript</span></li>
+               <li><span class="ptag">Visual Studio Code</span></li>
+               <li><span class="ptag">SQL online</span></li>
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="project-card">
+            <p class="project-title">Calculatrice scientifique en C </p>
+            <p class="project-desc">Calculatrice scientifique graphique simple sur ordinateur</p>
+            <p>Outils utilisé</p>
+            <div class="project-tags">
+              <ul>
+                <li><span class="ptag">C</span></li>
+                <li><span class="ptag">Algorithmique</span></li>
+                <li><span class="ptag">Code::Blocks</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- COMPÉTENCES -->
+        <section class="card" id="competences">
+          <div class="card-header">
+            <h2 class="card-title">Compétences Techniques</h2>
+            <span class="material-symbols-outlined">code</span>
+            </div>
+
+          <div id="skills-list">
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">HTML / CSS</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill"data-skill="80" style="width:80%">        
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">Algorithmique</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-skill="90" style="width:90%">        
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">SQL / MySQL</span>
+                <span class="skill-pct">60%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-skill="60" style="width:60%">        
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">JavaScript</span>
+                <span class="skill-pct">50%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-skill="50" style="width:50%">        
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">C</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-skill="80" style="width:80%">        
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">Excel</span>
+                <span class="skill-pct">50%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-skill="50" style="width:50%">        
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+        <div class="card-header">
+         <h2 class="card-title">Compétences Transversales</h2>
+         <span class="material-symbols-outlined">groups</span>
+        </div>
+         <div class="skill-item">
+         <div class="skill-top">
+         <span class="skill-name">Travail en équipe</span>
+          <span class="skill-pct">85%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill" style="width:85%"></div>
+    </div>
+    </div>
+
+    <div class="skill-item">
+    <div class="skill-top">
+      <span class="skill-name">Organisation</span>
+      <span class="skill-pct">80%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill" style="width:80%"></div>
+    </div>
+    </div>
+
+   <div class="skill-item">
+    <div class="skill-top">
+      <span class="skill-name">Communication</span>
+      <span class="skill-pct">75%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill" style="width:75%"></div>
+    </div>
+   </div>
+   </section>
+        <!-- OUTILS -->
+        <section class="card" id="outils">
+          <div class="card-header">
+            <div >
+            </div>
+            <h2 class="card-title">Outils & Environnements</h2>
+            <span class="material-symbols-outlined">terminal</span>
+          </div>
+          <div class="tags-wrap">
+            <ul>
+              <li><span class="tag">VS Code</span></li>
+              <li><span class="tag">Git / GitHub</span></li>
+              <li><span class="tag">Figma</span></li>
+              <li> <span class="tag">Bootstrap</span></li>
+              <li><span class="tag">Google colab</span></li>
+              <li><span class="tag">Code::Blocks</span></li>
+            </ul>
+            
+          </div>
+        </section>
+
+        <!-- LANGUES -->
+        <section class="card" id="langues">
+          <div class="card-header">
+            <div>
+            </div>
+            <h2 class="card-title">Langues</h2>
+            <span class="material-symbols-outlined">language</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">Français</span>
+            <span class="lang-level">Courant</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">Anglais</span>
+            <span class="lang-level">Intermédiaire</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">Wolof</span>
+            <span class="lang-level">Langue maternelle</span>
+          </div>
+        </section>
+
+        <!-- CENTRES D'INTÉRÊT -->
+        <section class="card" id="interets">
+          <div class="card-header">
+            <div >
+            </div>
+            <h2 class="card-title">Centres d'intérêt</h2>
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
+          <div class="interest-grid">
+            <ul>
+              <li class="interest-item">Intelligence Artificielle</li> 
+              <li class="interest-item">Lecture Tech</li>
+              <li class="interest-item">Développement Web</li>
+              <li class="interest-item">Musique</li></div>
+              
+            </ul>
+            
+          </div>
+        </section>
+
+      </main>
+    </div>
+    <form id="contact-form">
+    <label for="nom">Nom du recruteur</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="prenom">Prénom du recruteur</label>
+    <input type="text" id="prenom" name="prenom" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit">Envoyer</button>
+    </form>
+
+   
+   <footer class="footer">
+   <p>© 2025 Amy Dounia Ndiaye</p>
+
+   <div class="footer-links">
+    <a href="https://www.linkedin.com/in/amy-dounia-ndiaye-82b8253ba" target="_blank">
+      LinkedIn
+    </a>
+
+    <a href="https://github.com/Amyndiaye09" target="_blank">
+      GitHub
+    </a>
+   </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/nmp/@emailjs/browser@4/dist/email.min.js"></script>
+   <script src="../JS/script.js"></script>
+</body>
+</html>
